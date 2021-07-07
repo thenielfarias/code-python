@@ -5,7 +5,6 @@ for cont in range(10, -1, -1):
     sleep(0.5)
 print('Acabou!')
 
-
 '''
 #Contagem de pares
 for n in range(0, 50,2 ):
