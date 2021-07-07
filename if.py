@@ -1,4 +1,3 @@
-'''
 #Calculando Empréstimo
 casa = float(input("Valor da casa: R$"))
 salário = float(input("Salário do comprador: R$"))
@@ -11,7 +10,6 @@ if prestação <= mínimo:
     print("Empréstimo pode ser concedido")
 else:
     print("Empréstimo negado")
-'''
 
 '''
 #Conversor Bases Numéricas
@@ -210,3 +208,5 @@ elif computador == 2:
       else:
           print('JOGADA INVÁLIDA')         
 '''
+
+
