@@ -1,10 +1,8 @@
-'''
 #Validação de Dados
 sexo = str(input('Informe seu sexo: [M/F] ')).strip().upper()[0]
 while sexo not in 'MF':
     sexo = str(input('Dados inválidos. Por favor, informe seu sexo: ')).strip().upper()[0]
-print('Sexo {} registrado com sucesso'.format(sexo))                
-'''
+print('Sexo {} registrado com sucesso'.format(sexo))
 
 '''
 #Jogo da Adivinhação
@@ -272,7 +270,7 @@ print(f'Temos {totmil} produtos custando mais de mil reais')
 print(f'O produto mais barato foi {barato} que custa R${menor:.2f}')
 '''
 
-
+'''
 #Simulador de Caixa Eletrônico
 print('=' * 30)
 print('{:^30}'.format('ATM'))
@@ -298,5 +296,5 @@ while True:
         if total == 0:
             break
 print('=' * 30)
-
+'''
 
