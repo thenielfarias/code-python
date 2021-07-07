@@ -1,4 +1,3 @@
-
 #Contagem regressiva
 from time import sleep
 for cont in range(10, -1, -1):
@@ -127,7 +126,7 @@ print('O maior peso lido foi de {}Kg'.format(maior))
 print('O menor peso lido foi de {}Kg'.format(menor))
 '''
 
-
+'''
 #Analisador completo: Desenvolva um programa que leia o nome, idade e sexo de 4 pessoas. No final do programa, mostre: a média de idade do grupo, qual é o nome do homem mais velho e quantas mulheres têm menos de 20 anos.
 somaidade = 0
 médiaidade = 0
@@ -152,7 +151,7 @@ médiaidade = somaidade /4
 print('A média de idade do grupo é de {} anos'.format(médiaidade))
 print('O homem mais tem {} anos e se chama {}'.format(maioridadehomem, nomevelho))
 print('Ao todo são {} mulheres com menos de 20 anos'.format(totmulher20))
-
+'''
 
 
 
