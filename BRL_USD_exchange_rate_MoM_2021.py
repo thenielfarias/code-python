@@ -1,7 +1,6 @@
 from matplotlib import pyplot as plt
 
 month = ['jan', 'feb', 'mar', 'apr', 'may', 'jun']
-
 exchange_rate = [5.363, 5.421, 5.641, 5.565, 5.295, 5.024]
 
 plt.plot(month, exchange_rate, color='grey', marker='o', linestyle='solid')
